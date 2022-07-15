@@ -1,10 +1,13 @@
 {
-  "name": "stk500",
-  "version": "2.0.3",
+  "name": "@tempfix/stk500",
+  "version": "2.0.3-1",
   "description": "Fully javascript stk500v1 programmer. Allows you to program Arduinos straight from node (or browser for that matter). No more avrdude system calls or using the arduino IDE.",
   "main": "index.js",
   "directories": {
     "example": "examples"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.ss.sensetime.com/repository/npm-private/"
   },
   "scripts": {
     "test": "mocha --include test/*.js test/*.js --reporter spec"
